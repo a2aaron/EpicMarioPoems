@@ -281,6 +281,23 @@ pub static EPICS: &[Epic] = &[
         title: "Raghuvaṃśa",
         wiki: Wiki::Same,
     },
+    // 5th century
+    Epic {
+        title: "Argonautica Orphica",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Dionysiaca",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Mahavamsa",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Yadegar-e Zariran",
+        wiki: Wiki::Same,
+    },
 ];
 
 
