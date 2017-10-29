@@ -1,3 +1,4 @@
+extern crate fs2;
 extern crate rand;
 
 mod name_gen;

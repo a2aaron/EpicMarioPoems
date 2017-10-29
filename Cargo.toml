@@ -5,3 +5,4 @@ authors = ["Aaron Kofsky <a2aarontothe2@gmail.com>"]
 
 [dependencies]
 rand = "0.3"
+fs2 = "0.4"
