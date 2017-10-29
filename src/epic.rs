@@ -263,6 +263,15 @@ pub static EPICS: &[Epic] = &[
         title: "Kundalakēci",
         wiki: Wiki::Name("Kundalakesi"),
     },
+    // 3rd to 4th century
+    Epic {
+        title: "Posthomerica",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "De raptu Proserpinae",
+        wiki: Wiki::Name("Claudian#As_poet"),
+    },
 ];
 
 
