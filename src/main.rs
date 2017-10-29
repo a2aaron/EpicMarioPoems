@@ -16,6 +16,17 @@ use tokio_core::reactor::Core;
 use name_gen::random_msg;
 
 fn main() {
+    let token = get_token(); 
+
+    let epic = random_msg();
+    let tweet = DraftTweet::new(&epic);
+    
+    let mut core = Core::new().unwrap();
+    let handle = core.handle();
+    core.run(tweet.send(&token, &handle)).unwrap();
+}
+
+fn get_token() -> egg_mode::Token {
     dotenv().ok();
 
     let consumer_key = env::var("CONSUMER_KEY").unwrap();
@@ -25,15 +36,9 @@ fn main() {
 
     let con_token = egg_mode::KeyPair::new(consumer_key, consumer_secret);
     let access_token = egg_mode::KeyPair::new(access_token, access_token_secret);
-    let token = egg_mode::Token::Access {
+
+    egg_mode::Token::Access {
         consumer: con_token,
         access: access_token,
-    };
-
-    let epic = random_msg();
-    let tweet = DraftTweet::new(&epic);
-    
-    let mut core = Core::new().unwrap();
-    let handle = core.handle();
-    core.run(tweet.send(&token, &handle)).unwrap();
+    }
 }
