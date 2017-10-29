@@ -28,7 +28,12 @@ fn main() {
         access: access_token,
     };
 
-
-
-    println!("{}", name_gen::random_msg());
+    let epic = name_gen::random_msg();
+    let tweet = DraftTweet::new(&epic);
+    
+    println!("{:?}", tweet);
+    
+    let mut core = Core::new().unwrap();
+    let handle = core.handle();
+    core.run(tweet.send(&token, &handle)).unwrap();
 }
