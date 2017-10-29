@@ -242,6 +242,27 @@ pub static EPICS: &[Epic] = &[
         title: "Buddhacarita",
         wiki: Wiki::Same,
     },
+    // 2nd to 5th century
+    Epic {
+        title: "Cilappatikāram",
+        wiki: Wiki::Name("Silappatikaram"),
+    },
+    Epic {
+        title: "Manimekalai",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Cīvaka Cintāmaṇi",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Valayapathi",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Kundalakēci",
+        wiki: Wiki::Name("Kundalakesi"),
+    },
 ];
 
 
