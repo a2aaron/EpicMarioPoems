@@ -184,6 +184,15 @@ pub static EPICS: &[Epic] = &[
         title: "Naupactia",
         wiki: Wiki::Same,
     },
+    // 8th century BC to 3rd century AD
+    Epic {
+        title: "Mahābhārata",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Ramayana",
+        wiki: Wiki::Same,
+    },
 ];
 
 
