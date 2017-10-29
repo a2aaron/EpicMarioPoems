@@ -77,7 +77,7 @@ fn select_epic() -> &'static epic::Epic {
     // @Robustness: Handle these unwraps?
     // We only write the weighted entries so that it doesn't grow forever
     file.set_len(0).unwrap();
-    for line in &lines[lines.len() - (num_weight + 1)..] {
+    for line in &lines[lines.len().saturating_sub(num_weight + 1)..] {
         writeln!(file, "{}", line).unwrap();
     }
     file.unlock().unwrap();
