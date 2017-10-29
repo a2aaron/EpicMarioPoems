@@ -237,6 +237,11 @@ pub static EPICS: &[Epic] = &[
         title: "Achilleid",
         wiki: Wiki::Same,
     },
+    // 2nd century
+    Epic {
+        title: "Buddhacarita",
+        wiki: Wiki::Same,
+    },
 ];
 
 
