@@ -1,4 +1,4 @@
-pub fn generate_simple_name(epic_title: &str) -> String {
+pub fn super_mario_epic(epic_title: &str) -> String {
     format!("Super Mario {}", epic_title)
 }
 
@@ -7,9 +7,9 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_generate_simple_name() {
-        assert_eq!(generate_simple_name("Illiad"), "Super Mario Illiad");
-        assert_eq!(generate_simple_name("Epic of Gilgamesh"), "Super Mario Epic of Gilgamesh");
-        assert_eq!(generate_simple_name("Odyssey"), "Super Mario Odyssey");
+    fn test_super_mario_epic() {
+        assert_eq!(super_mario_epic("Illiad"), "Super Mario Illiad");
+        assert_eq!(super_mario_epic("Epic of Gilgamesh"), "Super Mario Epic of Gilgamesh");
+        assert_eq!(super_mario_epic("Odyssey"), "Super Mario Odyssey");
     }
 }
