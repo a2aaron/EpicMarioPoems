@@ -1,3 +1,5 @@
+extern crate egg_mode;
+
 mod name_gen;
 mod epic;
 
