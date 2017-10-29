@@ -1,5 +1,5 @@
 pub fn generate_simple_name(epic_title: String) -> String {
-    return "Super Mario ".to_string() + &epic_title;
+    return format!("Super Mario {}", epic_title)
 }
 
 #[cfg(test)]
