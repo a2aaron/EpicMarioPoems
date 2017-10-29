@@ -1,10 +1,10 @@
 pub fn generate_simple_name(epic_title: &str) -> String {
-    return format!("Super Mario {}", epic_title)
+    format!("Super Mario {}", epic_title)
 }
 
 #[cfg(test)]
 mod tests {
-    use name_gen::*;
+    use super::*;
 
     #[test]
     fn test_generate_simple_name() {
