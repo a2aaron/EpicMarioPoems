@@ -2,6 +2,7 @@ extern crate egg_mode;
 extern crate dotenv;
 extern crate fs2;
 extern crate rand;
+extern crate tokio_core;
 
 mod name_gen;
 mod epic;
@@ -9,8 +10,8 @@ mod epic;
 use dotenv::dotenv;
 use std::env;
 use name_gen::*;
-
-
+use egg_mode::tweet::DraftTweet;
+use tokio_core::reactor::Core;
 
 fn main() {
     dotenv().ok();
