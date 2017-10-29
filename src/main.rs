@@ -7,11 +7,13 @@ extern crate tokio_core;
 mod name_gen;
 mod epic;
 
-use dotenv::dotenv;
 use std::env;
-use name_gen::*;
+
+use dotenv::dotenv;
 use egg_mode::tweet::DraftTweet;
 use tokio_core::reactor::Core;
+
+use name_gen::random_msg;
 
 fn main() {
     dotenv().ok();
@@ -28,10 +30,8 @@ fn main() {
         access: access_token,
     };
 
-    let epic = name_gen::random_msg();
+    let epic = random_msg();
     let tweet = DraftTweet::new(&epic);
-    
-    println!("{:?}", tweet);
     
     let mut core = Core::new().unwrap();
     let handle = core.handle();
