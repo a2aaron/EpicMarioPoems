@@ -216,6 +216,27 @@ pub static EPICS: &[Epic] = &[
         title: "Aeneid",
         wiki: Wiki::Same,
     },
+    // 1st century AD
+    Epic {
+        title: "Metamorphoses",
+        wiki: Wiki::Name("Metamorphoses (poem)"),
+    },
+    Epic {
+        title: "Pharsalia",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Punica",
+        wiki: Wiki::Name("Punica (poem)"),
+    },
+    Epic {
+        title: "Thebaid",
+        wiki: Wiki::Name("Thebaid (Latin poem)"),
+    },
+    Epic {
+        title: "Achilleid",
+        wiki: Wiki::Same,
+    },
 ];
 
 
