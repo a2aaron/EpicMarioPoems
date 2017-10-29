@@ -203,6 +203,19 @@ pub static EPICS: &[Epic] = &[
         title: "Annales",
         wiki: Wiki::Name("Annales (Ennius)"),
     },
+    // 1st century BC
+    Epic {
+        title: "De rerum natura",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Georgics",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Aeneid",
+        wiki: Wiki::Same,
+    },
 ];
 
 
