@@ -6,3 +6,6 @@ authors = ["Aaron Kofsky <a2aarontothe2@gmail.com>"]
 [dependencies]
 rand = "0.3"
 fs2 = "0.4"
+egg-mode = "0.11.0"
+dotenv = "0.10.1"
+tokio-core = "0.1"
