@@ -193,6 +193,11 @@ pub static EPICS: &[Epic] = &[
         title: "Ramayana",
         wiki: Wiki::Same,
     },
+    // 3rd century BC
+    Epic {
+        title: "Argonautica",
+        wiki: Wiki::Same,
+    },
 ];
 
 
