@@ -272,6 +272,15 @@ pub static EPICS: &[Epic] = &[
         title: "De raptu Proserpinae",
         wiki: Wiki::Name("Claudian#As_poet"),
     },
+    // 4th century
+    Epic {
+        title: "Kumārasambhava",
+        wiki: Wiki::Name("Kumaarasambhavam"),
+    },
+    Epic {
+        title: "Raghuvaṃśa",
+        wiki: Wiki::Same,
+    },
 ];
 
 
