@@ -34,7 +34,7 @@ enum Wiki {
 
 /// A list of epic poems
 pub static EPICS: &[Epic] = &[
-    // 8th to 6th century BC
+    // 20th to 10th century BC
     Epic {
         title: "Epic of Gilgamesh",
         wiki: Wiki::Same,
@@ -55,7 +55,7 @@ pub static EPICS: &[Epic] = &[
         title: "Cycle of Kumarbi",
         wiki: Wiki::Same,
     },
-    // 20th to 10th century BC
+    // 8th to 6th century BC
     Epic {
         title: "Iliad",
         wiki: Wiki::Same,
@@ -78,6 +78,110 @@ pub static EPICS: &[Epic] = &[
     },
     Epic {
         title: "Catalogue of Women",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Cypria",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Aethiopis",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Little Iliad",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Iliupersis",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Nostoi",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Telegony",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Epic Cycle",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Oedipodea",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Thebaid",
+        wiki: Wiki::Name("Thebaid (Greek poem)"),
+    },
+    Epic {
+        title: "Epigoni",
+        wiki: Wiki::Name("Epigoni (epic)"),
+    },
+    Epic {
+        title: "Alcmeonis",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Theban Cycle",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Aegimius",
+        wiki: Wiki::Name("Aegimius (poem)"),
+    },
+    Epic {
+        title: "Astronomia",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Descent of Perithous",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Idaean Dactyls",
+        wiki: Wiki::Name("Idaean Dactyls (poem)"),
+    },
+    Epic {
+        title: "Megala Erga",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Megalai Ehoiai",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Melampodia",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Wedding of Ceyx",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Capture of Oechalia",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Phocais",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Titanomachy",
+        wiki: Wiki::Name("Titanomachy (epic poem)"),
+    },
+    Epic {
+        title: "Danais",
+        wiki: Wiki::Name("Danais (epic)"),
+    },
+    Epic {
+        title: "Minyas",
+        wiki: Wiki::Name("Minyas (poem)"),
+    },
+    Epic {
+        title: "Naupactia",
         wiki: Wiki::Same,
     },
 ];
