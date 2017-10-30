@@ -53,7 +53,7 @@ pub static EPICS: &[Epic] = &[
     },
     Epic {
         title: "Cycle of Kumarbi",
-        wiki: Wiki::Same,
+        wiki: Wiki::Name("Kumarbi"),
     },
     // 8th to 6th century BC
     Epic {
@@ -217,6 +217,10 @@ pub static EPICS: &[Epic] = &[
         wiki: Wiki::Same,
     },
     // 1st century AD
+    Epic {
+        title: "Argonautica",
+        wiki: Wiki::Name("Gaius Valerius Flaccus#Writings"),
+    },
     Epic {
         title: "Metamorphoses",
         wiki: Wiki::Name("Metamorphoses (poem)"),
