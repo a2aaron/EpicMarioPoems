@@ -876,6 +876,91 @@ pub static EPICS: &[Epic] = &[
         title: "Gitaramayanam",
         wiki: Wiki::Same,
     },
+    // Other epics
+    Epic {
+        title: "Gesta Berengarii imperatoris",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Epic of Bamana Segu",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Epic of Darkness",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Epic of Jangar",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Epic of Köroğlu",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Epic of the Forgotten",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Hikayat Seri Rama",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Hinilawod",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Khun Chang Khun Phaen",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Klei Khan Y Dam San",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Koti and Chennayya",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Epic of Siri",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Kutune Shirka",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Parsifal",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Pasyón",
+        wiki: Wiki::Name("Pasyon"),
+    },
+    Epic {
+        title: "Ramakien",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Der Ring des Nibelungen",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Siribhoovalaya",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Sundiata",
+        wiki: Wiki::Name("Epic of Sundiata"),
+    },
+    Epic {
+        title: "Yadegar-e Zariran",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Yama Zatdaw",
+        wiki: Wiki::Same,
+    },
 ];
 
 
