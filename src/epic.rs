@@ -359,6 +359,47 @@ pub static EPICS: &[Epic] = &[
         title: "Lucrece",
         wiki: Wiki::Name("The Rape of Lucrece"),
     },
+    // 17th century
+    Epic {
+        title: "La Argentina",
+        wiki: Wiki::Name("La Argentina (poem)"),
+    },
+    Epic {
+        title: "La Cleopatra",
+        wiki: Wiki::Name("La Cleopatra (poem)"),
+    },
+    Epic {
+        title: "Biag ni Lam-ang",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Il Conquisto di Granata",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Exact Epitome of the Four Monarchies",
+        wiki: Wiki::Name("The Tenth Muse Lately Sprung Up in America"),
+    },
+    Epic {
+        title: "Szigeti veszedelem",
+        wiki: Wiki::Name("Peril of Sziget"),
+    },
+    Epic {
+        title: "Gondibert",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Paradise Lost",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Paradise Regained",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Khun Chang Khun Phaen",
+        wiki: Wiki::Same,
+    },
 ];
 
 
