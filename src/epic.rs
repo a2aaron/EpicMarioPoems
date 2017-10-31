@@ -400,6 +400,47 @@ pub static EPICS: &[Epic] = &[
         title: "Khun Chang Khun Phaen",
         wiki: Wiki::Same,
     },
+    // 18th century
+    Epic {
+        title: "Kumulipo",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Henriade",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Utendi wa Tambuka",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "La Pucelle d'Orléans",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Seasons",
+        wiki: Wiki::Name("The Seasons (poem)"),
+    },
+    Epic {
+        title: "O Uraguai",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Caoineadh Airt Uí Laoghaire",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Caramuru",
+        wiki: Wiki::Name("Caramuru (epic poem)"),
+    },
+    Epic {
+        title: "Joan of Arc",
+        wiki: Wiki::Name("Joan of Arc (poem)"),
+    },
+    Epic {
+        title: "Hermann and Dorothea",
+        wiki: Wiki::Same,
+    },
 ];
 
 
