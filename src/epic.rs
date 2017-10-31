@@ -710,6 +710,159 @@ pub static EPICS: &[Epic] = &[
         title: "Amir Arsalan",
         wiki: Wiki::Same,
     },
+    // 20th century epics
+    Epic {
+        title: "The Divine Enchantment",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Lahuta e Malcís",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Ural-batyr",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Ballad of the White Horse",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Mensagem",
+        wiki: Wiki::Name("Fernando Pessoa#Mensagem"),
+    },
+    Epic {
+        title: "The Cantos",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Dorvyzhy",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Legend of Sigurd and Gudrún",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "A Cycle of the West",
+        wiki: Wiki::Name("Cycle of the West"),
+    },
+    Epic {
+        title: "The Odyssey: A Modern Sequel",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Dymer",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "John Brown's Body",
+        wiki: Wiki::Name("John Brown's Body (poem)"),
+    },
+    Epic {
+        title: "The Fall of Arthur",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Bridge",
+        wiki: Wiki::Name("The Bridge (long poem)"),
+    },
+    Epic {
+        title: "Kamayani",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Canto General",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Paterson",
+        wiki: Wiki::Name("Paterson (poem)"),
+    },
+    Epic {
+        title: "Sugata Saurabha",
+        wiki: Wiki::Name("Sugata Saurabha (epic)"),
+    },
+    Epic {
+        title: "Victory for the Slain",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Rashmirathi",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Hunkar",
+        wiki: Wiki::Name("Hunkar (epic poem)"),
+    },
+    Epic {
+        title: "Savitri",
+        wiki: Wiki::Name("Savitri: A Legend and a Symbol"),
+    },
+    Epic {
+        title: "The Maximus Poems",
+        wiki: Wiki::Name("Charles Olson#The Maximus Poems"),
+    },
+    Epic {
+        title: "Aniara",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Song of Lawino",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Banner of Joan",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Kristubhagavatam",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Changing Light at Sandover",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Battlefield Where The Moon Says I Love You",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Emperor Shaka the Great",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Lay of the Children of Húrin",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Lay of Leithian",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Giannina Braschi's Empire of Dreams",
+        wiki: Wiki::Name("Braschi's Empire of Dreams"),
+    },
+    Epic {
+        title: "Omeros",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Arundhati",
+        wiki: Wiki::Name("Arundhati (epic)"),
+    },
+    Epic {
+        title: "Mastorava",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Astronautilía Hvězdoplavba",
+        wiki: Wiki::Name("Astronautilia"),
+    },
+    Epic {
+        title: "Fredy Neptune: A Novel in Verse",
+        wiki: Wiki::Name("Fredy Neptune"),
+    },
 ];
 
 
