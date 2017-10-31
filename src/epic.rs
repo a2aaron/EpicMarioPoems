@@ -302,6 +302,63 @@ pub static EPICS: &[Epic] = &[
         title: "Yadegar-e Zariran",
         wiki: Wiki::Same,
     },
+    // 16th century
+    Epic {
+        title: "Lilit Phra Lo",
+        wiki: Wiki::Name("Phra Lo"),
+    },
+    Epic {
+        title: "Judita",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Orlando Furioso",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Davidiad",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Christiad",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Os Lusíadas",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "L'Amadigi",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "La Araucana",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "La Gerusalemme liberata",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Ramacharitamanasa",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Journey to the West",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Faerie Queene",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Venus and Adonis",
+        wiki: Wiki::Name("Venus and Adonis (Shakespeare poem)"),
+    },
+    Epic {
+        title: "Lucrece",
+        wiki: Wiki::Name("The Rape of Lucrece"),
+    },
 ];
 
 
