@@ -863,6 +863,19 @@ pub static EPICS: &[Epic] = &[
         title: "Fredy Neptune: A Novel in Verse",
         wiki: Wiki::Name("Fredy Neptune"),
     },
+    // 21st century
+    Epic {
+        title: "Sribhargavaraghaviyam",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Ashtavakra",
+        wiki: Wiki::Name("Ashtavakra (epic)"),
+    },
+    Epic {
+        title: "Gitaramayanam",
+        wiki: Wiki::Same,
+    },
 ];
 
 
