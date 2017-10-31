@@ -34,7 +34,7 @@ enum Wiki {
 
 /// A list of epic poems
 pub static EPICS: &[Epic] = &[
-    // 8th to 6th century BC
+    // 20th to 10th century BC
     Epic {
         title: "Epic of Gilgamesh",
         wiki: Wiki::Same,
@@ -53,9 +53,9 @@ pub static EPICS: &[Epic] = &[
     },
     Epic {
         title: "Cycle of Kumarbi",
-        wiki: Wiki::Same,
+        wiki: Wiki::Name("Kumarbi"),
     },
-    // 20th to 10th century BC
+    // 8th to 6th century BC
     Epic {
         title: "Iliad",
         wiki: Wiki::Same,
@@ -78,6 +78,228 @@ pub static EPICS: &[Epic] = &[
     },
     Epic {
         title: "Catalogue of Women",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Cypria",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Aethiopis",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Little Iliad",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Iliupersis",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Nostoi",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Telegony",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Epic Cycle",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Oedipodea",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Thebaid",
+        wiki: Wiki::Name("Thebaid (Greek poem)"),
+    },
+    Epic {
+        title: "Epigoni",
+        wiki: Wiki::Name("Epigoni (epic)"),
+    },
+    Epic {
+        title: "Alcmeonis",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Theban Cycle",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Aegimius",
+        wiki: Wiki::Name("Aegimius (poem)"),
+    },
+    Epic {
+        title: "Astronomia",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Descent of Perithous",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Idaean Dactyls",
+        wiki: Wiki::Name("Idaean Dactyls (poem)"),
+    },
+    Epic {
+        title: "Megala Erga",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Megalai Ehoiai",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Melampodia",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Wedding of Ceyx",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Capture of Oechalia",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Phocais",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Titanomachy",
+        wiki: Wiki::Name("Titanomachy (epic poem)"),
+    },
+    Epic {
+        title: "Danais",
+        wiki: Wiki::Name("Danais (epic)"),
+    },
+    Epic {
+        title: "Minyas",
+        wiki: Wiki::Name("Minyas (poem)"),
+    },
+    Epic {
+        title: "Naupactia",
+        wiki: Wiki::Same,
+    },
+    // 8th century BC to 3rd century AD
+    Epic {
+        title: "Mahābhārata",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Ramayana",
+        wiki: Wiki::Same,
+    },
+    // 3rd century BC
+    Epic {
+        title: "Argonautica",
+        wiki: Wiki::Same,
+    },
+    // 2nd century BC
+    Epic {
+        title: "Annales",
+        wiki: Wiki::Name("Annales (Ennius)"),
+    },
+    // 1st century BC
+    Epic {
+        title: "De rerum natura",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Georgics",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Aeneid",
+        wiki: Wiki::Same,
+    },
+    // 1st century AD
+    Epic {
+        title: "Argonautica",
+        wiki: Wiki::Name("Gaius Valerius Flaccus#Writings"),
+    },
+    Epic {
+        title: "Metamorphoses",
+        wiki: Wiki::Name("Metamorphoses (poem)"),
+    },
+    Epic {
+        title: "Pharsalia",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Punica",
+        wiki: Wiki::Name("Punica (poem)"),
+    },
+    Epic {
+        title: "Thebaid",
+        wiki: Wiki::Name("Thebaid (Latin poem)"),
+    },
+    Epic {
+        title: "Achilleid",
+        wiki: Wiki::Same,
+    },
+    // 2nd century
+    Epic {
+        title: "Buddhacarita",
+        wiki: Wiki::Same,
+    },
+    // 2nd to 5th century
+    Epic {
+        title: "Cilappatikāram",
+        wiki: Wiki::Name("Silappatikaram"),
+    },
+    Epic {
+        title: "Manimekalai",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Cīvaka Cintāmaṇi",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Valayapathi",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Kundalakēci",
+        wiki: Wiki::Name("Kundalakesi"),
+    },
+    // 3rd to 4th century
+    Epic {
+        title: "Posthomerica",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "De raptu Proserpinae",
+        wiki: Wiki::Name("Claudian#As_poet"),
+    },
+    // 4th century
+    Epic {
+        title: "Kumārasambhava",
+        wiki: Wiki::Name("Kumaarasambhavam"),
+    },
+    Epic {
+        title: "Raghuvaṃśa",
+        wiki: Wiki::Same,
+    },
+    // 5th century
+    Epic {
+        title: "Argonautica Orphica",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Dionysiaca",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Mahavamsa",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Yadegar-e Zariran",
         wiki: Wiki::Same,
     },
 ];
