@@ -302,6 +302,661 @@ pub static EPICS: &[Epic] = &[
         title: "Yadegar-e Zariran",
         wiki: Wiki::Same,
     },
+    // 16th century
+    Epic {
+        title: "Lilit Phra Lo",
+        wiki: Wiki::None,
+    },
+    Epic {
+        title: "Judita",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Orlando Furioso",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Davidiad",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Christiad",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Os Lusíadas",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "L'Amadigi",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "La Araucana",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "La Gerusalemme liberata",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Ramacharitamanasa",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Journey to the West",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Faerie Queene",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Venus and Adonis",
+        wiki: Wiki::Name("Venus and Adonis (Shakespeare poem)"),
+    },
+    Epic {
+        title: "Lucrece",
+        wiki: Wiki::Name("The Rape of Lucrece"),
+    },
+    // 17th century
+    Epic {
+        title: "La Argentina",
+        wiki: Wiki::Name("La Argentina (poem)"),
+    },
+    Epic {
+        title: "La Cleopatra",
+        wiki: Wiki::Name("La Cleopatra (poem)"),
+    },
+    Epic {
+        title: "Biag ni Lam-ang",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Il Conquisto di Granata",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Exact Epitome of the Four Monarchies",
+        wiki: Wiki::Name("The Tenth Muse Lately Sprung Up in America"),
+    },
+    Epic {
+        title: "Szigeti veszedelem",
+        wiki: Wiki::Name("Peril of Sziget"),
+    },
+    Epic {
+        title: "Gondibert",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Paradise Lost",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Paradise Regained",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Khun Chang Khun Phaen",
+        wiki: Wiki::Same,
+    },
+    // 18th century
+    Epic {
+        title: "Kumulipo",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Henriade",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Utendi wa Tambuka",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "La Pucelle d'Orléans",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Seasons",
+        wiki: Wiki::Name("The Seasons (poem)"),
+    },
+    Epic {
+        title: "O Uraguai",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Caoineadh Airt Uí Laoghaire",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Caramuru",
+        wiki: Wiki::Name("Caramuru (epic poem)"),
+    },
+    Epic {
+        title: "Joan of Arc",
+        wiki: Wiki::Name("Joan of Arc (poem)"),
+    },
+    Epic {
+        title: "Hermann and Dorothea",
+        wiki: Wiki::Same,
+    },
+    // 19th century
+    Epic {
+        title: "The Tale of Kiều",
+        wiki: Wiki::Name("The Tale of Kieu"),
+    },
+    Epic {
+        title: "Thalaba the Destroyer",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Madoc",
+        wiki: Wiki::Name("Madoc (poem)"),
+    },
+    Epic {
+        title: "The Columbiad",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Milton: A Poem",
+        wiki: Wiki::Name("Milton: A Poem in Two Books"),
+    },
+    Epic {
+        title: "Marmion",
+        wiki: Wiki::Name("Marmion (poem)"),
+    },
+    Epic {
+        title: "Childe Harold's Pilgrimage",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Queen Mab",
+        wiki: Wiki::Name("Queen Mab (poem)"),
+    },
+    Epic {
+        title: "Roderick the Last of the Goths",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Lord of the Isles",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Alastor, or The Spirit of Solitude",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Revolt of Islam",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Harold the Dauntless",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Endymion",
+        wiki: Wiki::Name("Endymion (poem)"),
+    },
+    Epic {
+        title: "Hyperion",
+        wiki: Wiki::Name("Hyperion (poem)"),
+    },
+    Epic {
+        title: "The Fall of Hyperion",
+        wiki: Wiki::Name("The Fall of Hyperion: A Dream"),
+    },
+    Epic {
+        title: "The Battle of Marathon",
+        wiki: Wiki::Name("The Battle of Marathon: A Poem"),
+    },
+    Epic {
+        title: "Phra Aphai Mani",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Don Juan",
+        wiki: Wiki::Name("Don Juan (Byron)"),
+    },
+    Epic {
+        title: "Camões",
+        wiki: Wiki::None,
+    },
+    Epic {
+        title: "Dona Branca",
+        wiki: Wiki::None,
+    },
+    Epic {
+        title: "Tamerlane",
+        wiki: Wiki::Name("Tamerlane (poem)"),
+    },
+    Epic {
+        title: "Creation, Man and the Messiah",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Prometheus Bound",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Pan Tadeusz",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Baptism on the Savica",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Florante at Laura",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "King Alfred",
+        wiki: Wiki::Name("King Alfred (poem)"),
+    },
+    Epic {
+        title: "János Vitéz",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Smrt Smail-age Čengića",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Toldi",
+        wiki: Wiki::None,
+    },
+    Epic {
+        title: "Toldi szerelme",
+        wiki: Wiki::None,
+    },
+    Epic {
+        title: "Toldi estéje",
+        wiki: Wiki::None,
+    },
+    Epic {
+        title: "Toldi trilogy",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Evangeline",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Mountain Wreath",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Tales of Ensign Stål",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Kalevala",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "I-Juca-Pirama",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Kalevipoeg",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Prelude",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Song of Myself",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Song of Hiawatha",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Saga of King Olaf",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Aurora Leigh",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Meghnad Badh Kavya",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Terje Vigen",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "La Légende des Siècles",
+        wiki: Wiki::Name("La Légende des siècles"),
+    },
+    Epic {
+        title: "The Earthly Paradise",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Ibonia",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Martín Fierro",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Idylls of the King",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Clarel",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Story of Sigurd the Volsung and the Fall of the Niblungs",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "L'Atlàntida",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Light of Asia",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The City of Dreadful Night",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Tristram of Lyonesse",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Eros and Psyche",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "La Fin de Satan",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Canigó",
+        wiki: Wiki::Name("Canigó#Literature"),
+    },
+    Epic {
+        title: "Lāčplēsis",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Tabaré",
+        wiki: Wiki::Name("Tabaré (poem)"),
+    },
+    Epic {
+        title: "The Wanderings of Oisin",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Kotan Utunnai",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Lục Vân Tiên",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Amir Arsalan",
+        wiki: Wiki::Same,
+    },
+    // 20th century epics
+    Epic {
+        title: "The Divine Enchantment",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Lahuta e Malcís",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Ural-batyr",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Ballad of the White Horse",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Mensagem",
+        wiki: Wiki::Name("Fernando Pessoa#Mensagem"),
+    },
+    Epic {
+        title: "The Cantos",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Dorvyzhy",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Legend of Sigurd and Gudrún",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "A Cycle of the West",
+        wiki: Wiki::Name("Cycle of the West"),
+    },
+    Epic {
+        title: "The Odyssey: A Modern Sequel",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Dymer",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "\"A\"",
+        wiki: Wiki::Name("Louis_Zukofsky#.22A.22"),
+    },
+    Epic {
+        title: "John Brown's Body",
+        wiki: Wiki::Name("John Brown's Body (poem)"),
+    },
+    Epic {
+        title: "The Fall of Arthur",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Bridge",
+        wiki: Wiki::Name("The Bridge (long poem)"),
+    },
+    Epic {
+        title: "Kamayani",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Canto General",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Paterson",
+        wiki: Wiki::Name("Paterson (poem)"),
+    },
+    Epic {
+        title: "Sugata Saurabha",
+        wiki: Wiki::Name("Sugata Saurabha (epic)"),
+    },
+    Epic {
+        title: "Victory for the Slain",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Rashmirathi",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Hunkar",
+        wiki: Wiki::Name("Hunkar (epic poem)"),
+    },
+    Epic {
+        title: "Savitri",
+        wiki: Wiki::Name("Savitri: A Legend and a Symbol"),
+    },
+    Epic {
+        title: "The Maximus Poems",
+        wiki: Wiki::Name("Charles Olson#The Maximus Poems"),
+    },
+    Epic {
+        title: "Aniara",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Song of Lawino",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Banner of Joan",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Kristubhagavatam",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Changing Light at Sandover",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Battlefield Where The Moon Says I Love You",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Emperor Shaka the Great",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Lay of the Children of Húrin",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Lay of Leithian",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Giannina Braschi's Empire of Dreams",
+        wiki: Wiki::Name("Braschi's Empire of Dreams"),
+    },
+    Epic {
+        title: "Omeros",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Arundhati",
+        wiki: Wiki::Name("Arundhati (epic)"),
+    },
+    Epic {
+        title: "Mastorava",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Astronautilía Hvězdoplavba",
+        wiki: Wiki::Name("Astronautilia"),
+    },
+    Epic {
+        title: "Fredy Neptune: A Novel in Verse",
+        wiki: Wiki::Name("Fredy Neptune"),
+    },
+    // 21st century
+    Epic {
+        title: "Sribhargavaraghaviyam",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Ashtavakra",
+        wiki: Wiki::Name("Ashtavakra (epic)"),
+    },
+    Epic {
+        title: "Gitaramayanam",
+        wiki: Wiki::Same,
+    },
+    // Other epics
+    Epic {
+        title: "Gesta Berengarii imperatoris",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Epic of Bamana Segu",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Epic of Darkness",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Epic of Jangar",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Epic of Köroğlu",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Epic of the Forgotten",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Hikayat Seri Rama",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Hinilawod",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Klei Khan Y Dam San",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Koti and Chennayya",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Epic of Siri",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Kutune Shirka",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Parsifal",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Pasyón",
+        wiki: Wiki::Name("Pasyon"),
+    },
+    Epic {
+        title: "Ramakien",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Der Ring des Nibelungen",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Siribhoovalaya",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Sundiata",
+        wiki: Wiki::Name("Epic of Sundiata"),
+    },
+    Epic {
+        title: "Yama Zatdaw",
+        wiki: Wiki::Same,
+    },
 ];
 
 
