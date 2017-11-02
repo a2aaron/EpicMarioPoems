@@ -305,7 +305,7 @@ pub static EPICS: &[Epic] = &[
     // 16th century
     Epic {
         title: "Lilit Phra Lo",
-        wiki: Wiki::Name("Phra Lo"),
+        wiki: Wiki::None,
     },
     Epic {
         title: "Judita",
@@ -756,6 +756,10 @@ pub static EPICS: &[Epic] = &[
         wiki: Wiki::Same,
     },
     Epic {
+        title: "\"A\"",
+        wiki: Wiki::Name("Louis_Zukofsky#.22A.22"),
+    },
+    Epic {
         title: "John Brown's Body",
         wiki: Wiki::Name("John Brown's Body (poem)"),
     },
@@ -910,10 +914,6 @@ pub static EPICS: &[Epic] = &[
         wiki: Wiki::Same,
     },
     Epic {
-        title: "Khun Chang Khun Phaen",
-        wiki: Wiki::Same,
-    },
-    Epic {
         title: "Klei Khan Y Dam San",
         wiki: Wiki::Same,
     },
@@ -952,10 +952,6 @@ pub static EPICS: &[Epic] = &[
     Epic {
         title: "Sundiata",
         wiki: Wiki::Name("Epic of Sundiata"),
-    },
-    Epic {
-        title: "Yadegar-e Zariran",
-        wiki: Wiki::Same,
     },
     Epic {
         title: "Yama Zatdaw",
