@@ -20,20 +20,17 @@ fn main() {
     let epic = random_msg();
 
     match token {
-        Err(token) => println!("Couldn't post tweet ({}),
-            reason: Failed to find an .env variable: {:?}", epic, token),
+        Err(token) => println!("Failed to find environment variable: {:?}\n\n{}", token, epic),
         Ok(token) => {
-            
             let tweet = DraftTweet::new(&epic);
-            
             let mut core = Core::new().unwrap();
             let handle = core.handle();
             let result = core.run(tweet.send(&token, &handle));
             match result {
-                Ok(_) => println!("Successfully posted tweet: {}", epic),
-                Err(err) => println!("Couldn't post tweet ({}), reason: {}", epic, err),
+                Ok(_) => println!("Successfully posted tweet!\n\n{}", epic),
+                Err(err) => println!("Authentication Token Missing: {}\n\n{}", err, epic),
             }
-        },
+        }
     }
 }
 
