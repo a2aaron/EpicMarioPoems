@@ -17,11 +17,12 @@ use name_gen::random_msg;
 
 fn main() {
     let token = get_token();
+    let epic = random_msg();
 
-    if token.is_err() {
-        println!("Failed to find a .env file: {:?}", token);
+    if let Err(token) = token {
+        println!("Couldn't post tweet ({}), reason: Failed to find an .env variable: {:?}", epic, token);
     } else {
-        let epic = random_msg();
+        
         let tweet = DraftTweet::new(&epic);
         
         let mut core = Core::new().unwrap();
@@ -29,7 +30,7 @@ fn main() {
         let result = core.run(tweet.send(&token.unwrap(), &handle));
         match result {
             Ok(_) => println!("Successfully posted tweet: {}", epic),
-            Err(err) => println!("Couldn't post tweet, reason: {}", err),
+            Err(err) => println!("Couldn't post tweet ({}), reason: {}", epic, err),
         }
     }
 }
@@ -68,4 +69,3 @@ struct TokenError {
     access_token: Option<std::env::VarError>,
     access_token_secret: Option<std::env::VarError>,
 }
-
