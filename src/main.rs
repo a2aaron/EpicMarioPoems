@@ -16,29 +16,50 @@ use tokio_core::reactor::Core;
 use name_gen::random_msg;
 
 fn main() {
-    let token = get_token(); 
-
+    let token = get_token();
     let epic = random_msg();
-    let tweet = DraftTweet::new(&epic);
-    
-    let mut core = Core::new().unwrap();
-    let handle = core.handle();
-    core.run(tweet.send(&token, &handle)).unwrap();
+
+    match token {
+        Err(token) => println!("Failed to find environment variable: {:?}\n\n{}", token, epic),
+        Ok(token) => {
+            let tweet = DraftTweet::new(&epic);
+            let mut core = Core::new().unwrap();
+            let handle = core.handle();
+            let result = core.run(tweet.send(&token, &handle));
+            match result {
+                Ok(_) => println!("Successfully posted tweet!\n\n{}", epic),
+                Err(err) => println!("Authentication Token Missing: {}\n\n{}", err, epic),
+            }
+        }
+    }
 }
 
-fn get_token() -> egg_mode::Token {
+fn get_token() -> Result<egg_mode::Token, TokenError> {
     dotenv().ok();
 
-    let consumer_key = env::var("CONSUMER_KEY").unwrap();
-    let consumer_secret = env::var("CONSUMER_SECRET").unwrap();
-    let access_token = env::var("ACCESS_TOKEN").unwrap();
-    let access_token_secret = env::var("ACCESS_TOKEN_SECRET").unwrap();
+    let consumer_key = env::var("CONSUMER_KEY")
+        .map_err(TokenError::ConsumerKey)?;
+    let consumer_secret = env::var("CONSUMER_SECRET")
+        .map_err(TokenError::ConsumerSecret)?;
+    let access_token = env::var("ACCESS_TOKEN")
+        .map_err(TokenError::AccessToken)?;
+    let access_token_secret = env::var("ACCESS_TOKEN_SECRET")
+        .map_err(TokenError::AccessTokenSecret)?;
 
     let con_token = egg_mode::KeyPair::new(consumer_key, consumer_secret);
     let access_token = egg_mode::KeyPair::new(access_token, access_token_secret);
 
-    egg_mode::Token::Access {
+    Ok(egg_mode::Token::Access {
         consumer: con_token,
         access: access_token,
-    }
+    })
+}
+
+use std::env::VarError;
+#[derive(Debug)]
+enum TokenError {
+    ConsumerKey(VarError),
+    ConsumerSecret(VarError),
+    AccessToken(VarError),
+    AccessTokenSecret(VarError),
 }
