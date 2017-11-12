@@ -409,6 +409,91 @@ pub static EPICS: &[Epic] = &[
         title: "Faramarz Nama",
         wiki: Wiki::Same,
     },
+    // 12th century
+    Epic {
+        title: "Acallam na Senórach",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Song of Roland",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Knight in the Panther's Skin",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Alexandreis",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "De bello Troiano",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Antiocheis",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Carmen de Prodicione Guenonis",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Architrenius",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Liber ad honorem Augusti",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Tale of Igor's Campaign",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Bylina",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Naishadha Charita",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Roman de Troie",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Poem of Almería",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Roman de Brut",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Roman de Rou",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Eupolemius",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Bahman Nama",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Kush Nama",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Banu Goshasp",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Ramavataram",
+        wiki: Wiki::Same,
+    },
     // 16th century
     Epic {
         title: "Lilit Phra Lo",
