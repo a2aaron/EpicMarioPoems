@@ -322,6 +322,81 @@ pub static EPICS: &[Epic] = &[
         title: "Shishupala Vadha",
         wiki: Wiki::Same,
     },
+    // 8th to 10th century
+    Epic {
+        title: "Beowulf",
+        wiki: Wiki::Same,
+    },
+
+    Epic {
+        title: "Waldere",
+        wiki: Wiki::Same,
+    },
+
+    Epic {
+        title: "Daredevils of Sassoun",
+        wiki: Wiki::Same,
+    },
+
+    Epic {
+        title: "Bhagavata Purana",
+        wiki: Wiki::Same,
+    },
+
+    Epic {
+        title: "Hildebrandslied",
+        wiki: Wiki::Same,
+    },
+
+    Epic {
+        title: "Muspilli",
+        wiki: Wiki::Same,
+    },
+
+    Epic {
+        title: "Kakawin Ramayana",
+        wiki: Wiki::Same,
+    },
+
+    Epic {
+        title: "Shahnameh",
+        wiki: Wiki::Same,
+    },
+
+    Epic {
+        title: "Waltharius",
+        wiki: Wiki::Same,
+    },
+
+    Epic {
+        title: "Poetic Edda",
+        wiki: Wiki::Same,
+    },
+
+    Epic {
+        title: "Vikramarjuna Vijaya",
+        wiki: Wiki::Same,
+    },
+
+    Epic {
+        title: "Ādi purāṇa",
+        wiki: Wiki::Same,
+    },
+
+    Epic {
+        title: "Ajitha purana",
+        wiki: Wiki::Same,
+    },
+
+    Epic {
+        title: "Gadaayuddha",
+        wiki: Wiki::Name("Ranna#Literature"),
+    },
+
+    Epic {
+        title: "Neelakesi",
+        wiki: Wiki::Same,
+    },
     // 16th century
     Epic {
         title: "Lilit Phra Lo",
