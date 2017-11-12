@@ -307,17 +307,14 @@ pub static EPICS: &[Epic] = &[
         title: "Táin Bó Cúailnge",
         wiki: Wiki::Same,
     },
-
     Epic {
         title: "Bhaṭṭikāvya",
         wiki: Wiki::Same,
     },
-
     Epic {
         title: "Kirātārjunīya",
         wiki: Wiki::Same,
     },
-
     Epic {
         title: "Shishupala Vadha",
         wiki: Wiki::Same,
@@ -327,72 +324,58 @@ pub static EPICS: &[Epic] = &[
         title: "Beowulf",
         wiki: Wiki::Same,
     },
-
     Epic {
         title: "Waldere",
         wiki: Wiki::Same,
     },
-
     Epic {
         title: "Daredevils of Sassoun",
         wiki: Wiki::Same,
     },
-
     Epic {
         title: "Bhagavata Purana",
         wiki: Wiki::Same,
     },
-
     Epic {
         title: "Hildebrandslied",
         wiki: Wiki::Same,
     },
-
     Epic {
         title: "Muspilli",
         wiki: Wiki::Same,
     },
-
     Epic {
         title: "Kakawin Ramayana",
         wiki: Wiki::Same,
     },
-
     Epic {
         title: "Shahnameh",
         wiki: Wiki::Same,
     },
-
     Epic {
         title: "Waltharius",
         wiki: Wiki::Same,
     },
-
     Epic {
         title: "Poetic Edda",
         wiki: Wiki::Same,
     },
-
     Epic {
         title: "Vikramarjuna Vijaya",
         wiki: Wiki::Same,
     },
-
     Epic {
         title: "Ādi purāṇa",
         wiki: Wiki::Same,
     },
-
     Epic {
         title: "Ajitha purana",
         wiki: Wiki::Same,
     },
-
     Epic {
         title: "Gadaayuddha",
         wiki: Wiki::Name("Ranna#Literature"),
     },
-
     Epic {
         title: "Neelakesi",
         wiki: Wiki::Same,
@@ -402,32 +385,26 @@ pub static EPICS: &[Epic] = &[
         title: "Taghribat Bani Hilal",
         wiki: Wiki::Same,
     },
-
     Epic {
         title: "Ruodlieb",
         wiki: Wiki::Same,
     },
-
     Epic {
         title: "Digenes Akritas",
         wiki: Wiki::Same,
     },
-
     Epic {
         title: "Epic of King Gesar",
         wiki: Wiki::Same,
     },
-
     Epic {
         title: "Carmen Campidoctoris",
         wiki: Wiki::Same,
     },
-
     Epic {
         title: "Borzu Nama",
         wiki: Wiki::Same,
     },
-
     Epic {
         title: "Faramarz Nama",
         wiki: Wiki::Same,
