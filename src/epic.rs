@@ -397,6 +397,41 @@ pub static EPICS: &[Epic] = &[
         title: "Neelakesi",
         wiki: Wiki::Same,
     },
+    // 11th century
+    Epic {
+        title: "Taghribat Bani Hilal",
+        wiki: Wiki::Same,
+    },
+
+    Epic {
+        title: "Ruodlieb",
+        wiki: Wiki::Same,
+    },
+
+    Epic {
+        title: "Digenes Akritas",
+        wiki: Wiki::Same,
+    },
+
+    Epic {
+        title: "Epic of King Gesar",
+        wiki: Wiki::Same,
+    },
+
+    Epic {
+        title: "Carmen Campidoctoris",
+        wiki: Wiki::Same,
+    },
+
+    Epic {
+        title: "Borzu Nama",
+        wiki: Wiki::Same,
+    },
+
+    Epic {
+        title: "Faramarz Nama",
+        wiki: Wiki::Same,
+    },
     // 16th century
     Epic {
         title: "Lilit Phra Lo",
