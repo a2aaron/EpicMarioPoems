@@ -302,6 +302,26 @@ pub static EPICS: &[Epic] = &[
         title: "Yadegar-e Zariran",
         wiki: Wiki::Same,
     },
+    // 7th century
+    Epic {
+        title: "Táin Bó Cúailnge",
+        wiki: Wiki::Same,
+    },
+
+    Epic {
+        title: "Bhaṭṭikāvya",
+        wiki: Wiki::Same,
+    },
+
+    Epic {
+        title: "Kirātārjunīya",
+        wiki: Wiki::Same,
+    },
+
+    Epic {
+        title: "Shishupala Vadha",
+        wiki: Wiki::Same,
+    },
     // 16th century
     Epic {
         title: "Lilit Phra Lo",
