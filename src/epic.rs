@@ -551,6 +551,43 @@ pub static EPICS: &[Epic] = &[
         title: "Basava purana",
         wiki: Wiki::Same,
     },
+    // 14th century
+    Epic {
+        title: "Divine Comedy",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Cursor Mundi",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Africa",
+        wiki: Wiki::Name("Africa (Petrarch)"),
+    },
+    Epic {
+        title: "The Tale of the Heike",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Brus",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "La Spagna",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Mocedades de Rodrigo",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Siege of Jerusalem",
+        wiki: Wiki::Name("Siege of Jerusalem (poem)"),
+    },
+    Epic {
+        title: "Zafarnamah",
+        wiki: Wiki::Name("Zafarnamah (Mustawfi)"),
+    },
     // 16th century
     Epic {
         title: "Lilit Phra Lo",
