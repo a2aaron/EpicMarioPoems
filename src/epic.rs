@@ -302,6 +302,337 @@ pub static EPICS: &[Epic] = &[
         title: "Yadegar-e Zariran",
         wiki: Wiki::Same,
     },
+    // 7th century
+    Epic {
+        title: "Táin Bó Cúailnge",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Bhaṭṭikāvya",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Kirātārjunīya",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Shishupala Vadha",
+        wiki: Wiki::Same,
+    },
+    // 8th to 10th century
+    Epic {
+        title: "Beowulf",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Waldere",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Daredevils of Sassoun",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Bhagavata Purana",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Hildebrandslied",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Muspilli",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Kakawin Ramayana",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Shahnameh",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Waltharius",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Poetic Edda",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Vikramarjuna Vijaya",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Ādi purāṇa",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Ajitha purana",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Gadaayuddha",
+        wiki: Wiki::Name("Ranna#Literature"),
+    },
+    Epic {
+        title: "Neelakesi",
+        wiki: Wiki::Same,
+    },
+    // 11th century
+    Epic {
+        title: "Taghribat Bani Hilal",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Ruodlieb",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Digenes Akritas",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Epic of King Gesar",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Carmen Campidoctoris",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Borzu Nama",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Faramarz Nama",
+        wiki: Wiki::Same,
+    },
+    // 12th century
+    Epic {
+        title: "Acallam na Senórach",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Song of Roland",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Knight in the Panther's Skin",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Alexandreis",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "De bello Troiano",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Antiocheis",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Carmen de Prodicione Guenonis",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Architrenius",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Liber ad honorem Augusti",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Tale of Igor's Campaign",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Bylina",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Naishadha Charita",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Roman de Troie",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Poem of Almería",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Roman de Brut",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Roman de Rou",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Eupolemius",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Bahman Nama",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Kush Nama",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Banu Goshasp",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Ramavataram",
+        wiki: Wiki::Same,
+    },
+    // 13th century
+    Epic {
+        title: "Nibelungenlied",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Kudrun",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Brut",
+        wiki: Wiki::Name("Layamon's Brut"),
+    },
+    Epic {
+        title: "Chanson de la Croisade Albigeoise",
+        wiki: Wiki::Name("Song of the Albigensian Crusade"),
+    },
+    Epic {
+        title: "Antar",
+        wiki: Wiki::Name("Antarah ibn Shaddad"),
+    },
+    Epic {
+        title: "Sirat al-Zahir Baibars",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Osman's Dream",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Cantar de Mio Cid",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "De triumphis ecclesiae",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Gesta Regum Britanniae",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Van den vos Reynaerde",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Poema de Fernán González",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Jewang Ungi",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Basava purana",
+        wiki: Wiki::Same,
+    },
+    // 14th century
+    Epic {
+        title: "Divine Comedy",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Cursor Mundi",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Africa",
+        wiki: Wiki::Name("Africa (Petrarch)"),
+    },
+    Epic {
+        title: "The Tale of the Heike",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Brus",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "La Spagna",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Mocedades de Rodrigo",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Siege of Jerusalem",
+        wiki: Wiki::Name("Siege of Jerusalem (poem)"),
+    },
+    Epic {
+        title: "Zafarnamah",
+        wiki: Wiki::Name("Zafarnamah (Mustawfi)"),
+    },
+    // 15th century
+    Epic {
+        title: "Yuan Phai",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Mahachat Kham luang",
+        wiki: Wiki::Name("Thai_literature#Maha-chat_Kham_Luang:_the_.22Great_Birth.22_Sermon"),
+    },
+    Epic {
+        title: "Orlando innamorato",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Shmuel-Bukh",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Mlokhim-Bukh",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Book of Dede Korkut",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Morgante",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Wallace",
+        wiki: Wiki::Name("The Wallace (poem)"),
+    },
+    Epic {
+        title: "Troy Book",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Heldenbuch",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Ibong Adarna",
+        wiki: Wiki::Same,
+    },
     // 16th century
     Epic {
         title: "Lilit Phra Lo",
