@@ -494,6 +494,63 @@ pub static EPICS: &[Epic] = &[
         title: "Ramavataram",
         wiki: Wiki::Same,
     },
+    // 13th century
+    Epic {
+        title: "Nibelungenlied",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Kudrun",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Brut",
+        wiki: Wiki::Name("Layamon's Brut"),
+    },
+    Epic {
+        title: "Chanson de la Croisade Albigeoise",
+        wiki: Wiki::Name("Song of the Albigensian Crusade"),
+    },
+    Epic {
+        title: "Antar",
+        wiki: Wiki::Name("Antarah ibn Shaddad"),
+    },
+    Epic {
+        title: "Sirat al-Zahir Baibars",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Osman's Dream",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Cantar de Mio Cid",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "De triumphis ecclesiae",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Gesta Regum Britanniae",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Van den vos Reynaerde",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Poema de Fernán González",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Jewang Ungi",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Basava purana",
+        wiki: Wiki::Same,
+    },
     // 16th century
     Epic {
         title: "Lilit Phra Lo",
