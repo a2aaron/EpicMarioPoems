@@ -588,6 +588,51 @@ pub static EPICS: &[Epic] = &[
         title: "Zafarnamah",
         wiki: Wiki::Name("Zafarnamah (Mustawfi)"),
     },
+    // 15th century
+    Epic {
+        title: "Yuan Phai",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Mahachat Kham luang",
+        wiki: Wiki::Name("Thai_literature#Maha-chat_Kham_Luang:_the_.22Great_Birth.22_Sermon"),
+    },
+    Epic {
+        title: "Orlando innamorato",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Shmuel-Bukh",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Mlokhim-Bukh",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Book of Dede Korkut",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Morgante",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "The Wallace",
+        wiki: Wiki::Name("The Wallace (poem)"),
+    },
+    Epic {
+        title: "Troy Book",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Heldenbuch",
+        wiki: Wiki::Same,
+    },
+    Epic {
+        title: "Ibong Adarna",
+        wiki: Wiki::Same,
+    },
     // 16th century
     Epic {
         title: "Lilit Phra Lo",
