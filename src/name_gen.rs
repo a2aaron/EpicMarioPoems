@@ -2,7 +2,7 @@ use std::collections::HashMap;
 use std::fs::OpenOptions;
 use std::io::{BufReader, BufRead, Write};
 
-use rand::thread_rng;
+use rand::{thread_rng, Rng};
 use rand::distributions::{Weighted, WeightedChoice, Sample};
 use epic;
 use fs2::FileExt;
@@ -11,11 +11,8 @@ use fs2::FileExt;
 /// Generates a random message, selecting an epic and a message format.
 pub fn random_msg() -> String {
     let epic = select_epic();
-    epic_msg(epic)
-}
-
-pub fn super_mario_epic(epic_title: &str) -> String {
-    format!("Super Mario {}", epic_title)
+    let format = random_format();
+    epic_msg(epic, format)
 }
 
 /// This selects an epic, preferring ones that haven't been chosen too recently.
@@ -84,32 +81,44 @@ fn select_epic() -> &'static epic::Epic {
     choice
 }
 
-fn epic_msg(epic: &epic::Epic) -> String {
+fn epic_msg(epic: &epic::Epic, format: &str) -> String {
     match epic.wiki() {
         Some(wiki) => {
-            let title = super_mario_epic(epic.title);
+            let title = str::replace(format, "{}", epic.title);
             format!("{}\n\n({})", title, wiki)
         }
         None => {
             format!(
                 "{}",
-                super_mario_epic(epic.title),
+                str::replace(format, "{}", epic.title),
             )
         }
     }
+}
+
+static ENDINGS: [&'static str; 13] = [
+    "Super Mario {}",
+    "Super {} Bros.",
+    "Super {} Bros. 2",
+    "Super {} Bros. 3",
+    "Super {} World",
+    "Super {} 64",
+    "Super {} Sunshine",
+    "Super {} Galaxy",
+    "Super {} Galaxy 2",
+    "New Super {} Bros.",
+    "New Super {} Bros. Wii U",
+    "{}'s Island",
+    "Yoshi's {}",
+];
+
+fn random_format() -> &'static str {
+    thread_rng().choose(&ENDINGS).unwrap()
 }
 
 #[cfg(test)]
 mod tests {
     use super::*;
 
-    #[test]
-    fn test_super_mario_epic() {
-        assert_eq!(super_mario_epic("Illiad"), "Super Mario Illiad");
-        assert_eq!(
-            super_mario_epic("Epic of Gilgamesh"),
-            "Super Mario Epic of Gilgamesh"
-        );
-        assert_eq!(super_mario_epic("Odyssey"), "Super Mario Odyssey");
-    }
+    // TODO: Figure out how to test stuff like this.
 }
