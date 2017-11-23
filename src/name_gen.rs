@@ -1,6 +1,6 @@
 use std::collections::HashMap;
 use std::fs::OpenOptions;
-use std::io::{BufReader, BufRead, Write};
+use std::io::{BufReader, BufRead, Write, Seek, SeekFrom};
 
 use rand::thread_rng;
 use rand::distributions::{Weighted, WeightedChoice, Sample};
@@ -77,6 +77,7 @@ fn select_epic() -> &'static epic::Epic {
     // @Robustness: Handle these unwraps?
     // We only write the weighted entries so that it doesn't grow forever
     file.set_len(0).unwrap();
+    file.seek(SeekFrom::Start(0)).unwrap();
     for line in &lines[lines.len().saturating_sub(num_weight + 1)..] {
         writeln!(file, "{}", line).unwrap();
     }
