@@ -37,13 +37,13 @@ fn main() {
 fn get_token() -> Result<egg_mode::Token, TokenError> {
     dotenv().ok();
 
-    let consumer_key = env::var("CONSUMER_KEY")
+    let consumer_key = env::var("MARIO_EPIC_CONSUMER_KEY")
         .map_err(TokenError::ConsumerKey)?;
-    let consumer_secret = env::var("CONSUMER_SECRET")
+    let consumer_secret = env::var("MARIO_EPIC_CONSUMER_SECRET")
         .map_err(TokenError::ConsumerSecret)?;
-    let access_token = env::var("ACCESS_TOKEN")
+    let access_token = env::var("MARIO_EPIC_ACCESS_TOKEN")
         .map_err(TokenError::AccessToken)?;
-    let access_token_secret = env::var("ACCESS_TOKEN_SECRET")
+    let access_token_secret = env::var("MARIO_EPIC_ACCESS_TOKEN_SECRET")
         .map_err(TokenError::AccessTokenSecret)?;
 
     let con_token = egg_mode::KeyPair::new(consumer_key, consumer_secret);
